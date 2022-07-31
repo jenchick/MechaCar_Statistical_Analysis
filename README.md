@@ -1,4 +1,27 @@
 # MechaCar_Statistical_Analysis
+## Overview
+provide brief summary
+
+## Linear Regression to Predict MPG
+
+![image](https://user-images.githubusercontent.com/102322707/182044339-3e4a4e00-87b4-455a-a506-bf46b9d2ee23.png)
+
+![image](https://user-images.githubusercontent.com/102322707/182044351-ca0dc661-f4ba-467f-b3f0-1b4d643002c2.png)
+
+![image](https://user-images.githubusercontent.com/102322707/182044389-fdd46e09-c875-41e7-bd0b-353750aa5a15.png)
+
+
+
+
+
+
+Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+Is the slope of the linear model considered to be zero? Why or why not?
+
+Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+
 Statistics and R
 A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 
