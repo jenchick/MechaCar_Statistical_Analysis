@@ -63,7 +63,7 @@ A statistical study that could quantify how the MechaCar performs against the co
 
 The null hypothesis would be that MechaCar and it's competition do not differ on the selected variable. The alternative hypothesis would be that MechaCar and it's competition actually do differ (and if they do, is the difference positive or negative).
 
-In order to perform any testing, data would need to be obtained on the cost, fuel efficiency, and safety rating for MechaCar and it's competition.  Once compiled, MechaCar should be compared to the top-rated vehicles for the variables in question. Multiple Linear Regression could be performed to determine if MechaCar shows variance related to the competion. Then further investigation would be needed to see if MechaCar out-performs competition, or if in-line with competition, does MechaCar exceed expectation on some other variable to make it the more appealing choice.  
+In order to perform any testing, data would need to be obtained on the cost, fuel efficiency, and safety rating for MechaCar and it's competition (possibly from Consumer Reports).  Once compiled, MechaCar should be compared to the top-rated vehicles for the variables in question. Multiple Linear Regression could be performed to determine if MechaCar shows variance related to the competion. Then further investigation would be needed to see if MechaCar out-performs competition, or if in-line with competition, does MechaCar exceed expectation on some other variable to make it the more appealing choice.  
 
 ## Resources
 Data: MechaCar_mpg.csv; Suspension_Coil_csv
