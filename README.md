@@ -39,6 +39,8 @@ It appears that Lot 3 has issues due to the lower mean (1496.14), lower median (
 ## T-Test on Suspension Coils
 T-test were performed to determine if all manufacturing lots and each lot individually were statistically different from the population mean of 1,500 pounds per square inch.
 
+The image below indicates that the original dataset and sample dataset are within acceptable range with p-values greater than 0.05:
+
 ![image](https://user-images.githubusercontent.com/102322707/182053242-92dea53f-5c6d-486d-8c37-241866aa498b.png)
 
 Lot 1 Results:
@@ -52,6 +54,8 @@ Lot 2 Results:
 Lot 3 Results:
 
 ![image](https://user-images.githubusercontent.com/102322707/182053422-20d10d94-ac3e-45e8-8879-00a6389f1219.png)
+
+The results for Lot 1 and Lot 2 indicate there is no statistical difference between the means of the sample and the expected 1500 PSI mean of the entire population, and the p-values are above 0.05. However, it appears that Lot 3 has a lower than expected p-value of 0.042, along with a mean of 1496.14.  Again, this indicates an unexpected result for Lot 3 showing results that are statistically different from the population mean of 1,500 pounds per square inch.
 
 ## Study Design: MechaCar vs Competition
 
