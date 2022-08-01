@@ -68,3 +68,5 @@ In order to perform any testing, data would need to be obtained on the cost, fue
 ## Resources
 Data: MechaCar_mpg.csv; Suspension_Coil_csv
 
+Software: RStudio
+
