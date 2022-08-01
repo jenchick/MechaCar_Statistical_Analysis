@@ -22,32 +22,22 @@ The p-value of our linear regression analysis is 5.35e-11, which is much smaller
 
 The Multiple R-squared value is 0.7149, which indicates that approximately 71% of the variability of our dependent variable (mpg) is explained using this linear model.
 
-
-
 ## Summary Statistics on Suspension Coils
 
-The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. 
 
-Write an RScript that creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+The following chart shows the mean, median, variance, and standard deviation of the suspension coil’s PSI column for the entire dataset:
 
 ![image](https://user-images.githubusercontent.com/102322707/182051627-cb276378-ccd9-4130-84b0-92333f0e8464.png)
 
-
-
-The suspension coil’s PSI continuous variable across all manufacturing lots
-The following PSI metrics for each lot: mean, median, variance, and standard deviation.
-detail and interpret the suspension coil summary statistics.
+The next chart shows these same measures by manufacturing lot:
 
 ![image](https://user-images.githubusercontent.com/102322707/182051791-1356fc07-2a80-4c37-b50a-5e87be5a4109.png)
 
-summary that addresses the design specification requirement for all the manufacturing lots and each lot individually 
+It appears that Lot 3 has issues due to the lower mean (1496.14), lower median (1489.5), high variance (170.29) and high standard deviation (13.04). Lots 1 and 2 appear to be in compliance and within acceptable ranges.
 
 ## T-Test on Suspension Coils
-determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
-summary of the t-test results across all manufacturing lots and for each lot
-
-Plot of Sample appears to be almost normal distribution:
-![image](https://user-images.githubusercontent.com/102322707/182052464-54febc7b-88c9-449b-93f0-92a35c3bd4eb.png)
+T-test were performed to determine if all manufacturing lots and each lot individually were statistically different from the population mean of 1,500 pounds per square inch.
 
 ![image](https://user-images.githubusercontent.com/102322707/182053242-92dea53f-5c6d-486d-8c37-241866aa498b.png)
 
