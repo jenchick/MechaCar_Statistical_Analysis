@@ -29,7 +29,7 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 
 
-## Deliverable 2: Summary Statistics on Suspension Coils
+## Summary Statistics on Suspension Coils
 
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
 
@@ -45,9 +45,25 @@ detail and interpret the suspension coil summary statistics.
 
 ![image](https://user-images.githubusercontent.com/102322707/182051791-1356fc07-2a80-4c37-b50a-5e87be5a4109.png)
 
+summary that addresses the design specification requirement for all the manufacturing lots and each lot individually 
 
-## Deliverable 3: T-Test on Suspension Coils
-Write short interpretation of the results
+## T-Test on Suspension Coils
+determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+summary of the t-test results across all manufacturing lots and for each lot
+
+Plot of Sample appears to be almost normal distribution:
+![image](https://user-images.githubusercontent.com/102322707/182052464-54febc7b-88c9-449b-93f0-92a35c3bd4eb.png)
+
+![image](https://user-images.githubusercontent.com/102322707/182053242-92dea53f-5c6d-486d-8c37-241866aa498b.png)
+
+Lot 1 Results:
+![image](https://user-images.githubusercontent.com/102322707/182053360-2acfb184-2521-4a0d-84fb-79ecb37c1777.png)
+
+Lot 2 Results:
+![image](https://user-images.githubusercontent.com/102322707/182053384-bc49f10c-9479-4f49-84e8-86cf5f1ed85f.png)
+
+Lot 3 Results:
+![image](https://user-images.githubusercontent.com/102322707/182053422-20d10d94-ac3e-45e8-8879-00a6389f1219.png)
 
 ## Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 Write short interpretation of the results
